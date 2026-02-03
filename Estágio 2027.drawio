@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.13 Safari/605.1.15" version="29.3.6" pages="2">
   <diagram name="Dataverse" id="wZTU636UUobtrrCLxhuD">
-    <mxGraphModel dx="1116" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="824" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -57,7 +57,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Wshzw9MCXxgZdAw_UAOO-14" parent="1" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Tipo de Solicitação " vertex="1">
-          <mxGeometry height="112" width="160" x="414" y="480" as="geometry">
+          <mxGeometry height="138" width="160" x="414" y="480" as="geometry">
             <mxRectangle height="26" width="170" x="340" y="380" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -70,8 +70,11 @@
         <mxCell id="Wshzw9MCXxgZdAw_UAOO-15" parent="Wshzw9MCXxgZdAw_UAOO-14" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="Equipe Responsável " vertex="1">
           <mxGeometry height="26" width="160" y="78" as="geometry" />
         </mxCell>
+        <mxCell id="OEiEcxEuke9tCj7RuoN--1" parent="Wshzw9MCXxgZdAw_UAOO-14" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="SLA (Dias)" vertex="1">
+          <mxGeometry height="26" width="160" y="104" as="geometry" />
+        </mxCell>
         <mxCell id="Wshzw9MCXxgZdAw_UAOO-16" parent="Wshzw9MCXxgZdAw_UAOO-14" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" value="" vertex="1">
-          <mxGeometry height="8" width="160" y="104" as="geometry" />
+          <mxGeometry height="8" width="160" y="130" as="geometry" />
         </mxCell>
         <mxCell id="Wshzw9MCXxgZdAw_UAOO-17" edge="1" parent="1" source="Wshzw9MCXxgZdAw_UAOO-14" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;curved=0;edgeStyle=elbowEdgeStyle;elbow=vertical;fontSize=12;" target="Wshzw9MCXxgZdAw_UAOO-1" value="">
           <mxGeometry relative="1" width="160" as="geometry">
@@ -114,33 +117,51 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MBTjGOrN8yu_EFJWjUCE" name="Arquitetura">
-    <mxGraphModel dx="483" dy="1604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="836" dy="1926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="jwTzE-N-crLtzynFK8Fz-3" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Usuários&amp;nbsp;" vertex="1">
-          <mxGeometry height="500" width="220" x="470" y="-660" as="geometry" />
+          <mxGeometry height="700" width="220" x="470" y="-660" as="geometry" />
         </mxCell>
         <mxCell id="jwTzE-N-crLtzynFK8Fz-6" parent="jwTzE-N-crLtzynFK8Fz-3" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/identity/User_Settings.svg;" value="Time de TI" vertex="1">
-          <mxGeometry height="68.47" width="82" x="69" y="50" as="geometry" />
+          <mxGeometry height="68.47" width="82" x="90.87" y="70" as="geometry" />
         </mxCell>
         <mxCell id="jwTzE-N-crLtzynFK8Fz-9" parent="jwTzE-N-crLtzynFK8Fz-3" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/azure_stack/User_Subscriptions.svg;" value="Gerente" vertex="1">
-          <mxGeometry height="90" width="92.73" x="63.63" y="350" as="geometry" />
+          <mxGeometry height="90" width="92.73" x="74.5" y="499.99999999999994" as="geometry" />
         </mxCell>
-        <mxCell id="jwTzE-N-crLtzynFK8Fz-7" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;" value="Funcionário&amp;nbsp;" vertex="1">
-          <mxGeometry height="80" width="71" x="539" y="-460" as="geometry" />
+        <mxCell id="jwTzE-N-crLtzynFK8Fz-7" parent="jwTzE-N-crLtzynFK8Fz-3" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;" value="Funcionário&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="71" x="74.5" y="277.42" as="geometry" />
         </mxCell>
         <mxCell id="jwTzE-N-crLtzynFK8Fz-10" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Aplicativos" vertex="1">
-          <mxGeometry height="500" width="210" x="710" y="-660" as="geometry" />
+          <mxGeometry height="700" width="210" x="710" y="-660" as="geometry" />
+        </mxCell>
+        <mxCell id="AMYnGLXdCnbA72KuHY_y-14" edge="1" parent="jwTzE-N-crLtzynFK8Fz-10" source="jwTzE-N-crLtzynFK8Fz-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.868;exitY=0.46;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="90" />
+              <mxPoint x="330" y="90" />
+            </Array>
+            <mxPoint x="330" y="100" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="jwTzE-N-crLtzynFK8Fz-11" parent="jwTzE-N-crLtzynFK8Fz-10" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/power_platform/PowerApps.svg;" value="Model Driven para gerenciar&lt;div&gt;solicitações pelo time&lt;/div&gt;&lt;div&gt;de TI&lt;/div&gt;" vertex="1">
-          <mxGeometry height="65.16" width="68" x="71" y="89.99999999999997" as="geometry" />
+          <mxGeometry height="65.16" width="68" x="71" y="69.99999999999997" as="geometry" />
         </mxCell>
         <mxCell id="jwTzE-N-crLtzynFK8Fz-12" parent="jwTzE-N-crLtzynFK8Fz-10" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/power_platform/PowerApps.svg;" value="Canvas apps para os&lt;div&gt;funcionários criarem e&lt;/div&gt;&lt;div&gt;acompanharem solicitações&amp;nbsp;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="65.16" width="68" x="71" y="284.84" as="geometry" />
+          <mxGeometry height="65.16" width="68" x="80" y="284.84" as="geometry" />
         </mxCell>
-        <mxCell id="jwTzE-N-crLtzynFK8Fz-13" edge="1" parent="1" source="jwTzE-N-crLtzynFK8Fz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.015;entryY=0.54;entryDx=0;entryDy=0;entryPerimeter=0;" target="jwTzE-N-crLtzynFK8Fz-12">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="LbS0YWS5XL2qfN2Z-3OJ-2" edge="1" parent="jwTzE-N-crLtzynFK8Fz-10" source="AMYnGLXdCnbA72KuHY_y-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="511" />
+              <mxPoint x="260" y="300" />
+            </Array>
+            <mxPoint x="320" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMYnGLXdCnbA72KuHY_y-7" parent="jwTzE-N-crLtzynFK8Fz-10" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/power_platform/CopilotStudio.svg;" value="Tirar dúvidas sobre solicitações&amp;nbsp;" vertex="1">
+          <mxGeometry height="62.32" width="68" x="71" y="480" as="geometry" />
         </mxCell>
         <mxCell id="jwTzE-N-crLtzynFK8Fz-14" edge="1" parent="1" source="jwTzE-N-crLtzynFK8Fz-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="jwTzE-N-crLtzynFK8Fz-11">
           <mxGeometry relative="1" as="geometry" />
@@ -152,7 +173,50 @@
           <mxGeometry height="52.400000000000006" width="68" x="100" y="66.06999999999994" as="geometry" />
         </mxCell>
         <mxCell id="jwTzE-N-crLtzynFK8Fz-17" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Processos" vertex="1">
-          <mxGeometry height="280" width="260" x="940" y="-440" as="geometry" />
+          <mxGeometry height="480" width="260" x="940" y="-440" as="geometry" />
+        </mxCell>
+        <mxCell id="AMYnGLXdCnbA72KuHY_y-5" parent="jwTzE-N-crLtzynFK8Fz-17" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/power_platform/PowerAutomate.svg;shadow=1;" value="Fluxo de aprovação da&lt;div&gt;solicitacao&lt;/div&gt;" vertex="1">
+          <mxGeometry height="53.839999999999996" width="68" x="104.5" y="226.16" as="geometry" />
+        </mxCell>
+        <mxCell id="LbS0YWS5XL2qfN2Z-3OJ-1" parent="jwTzE-N-crLtzynFK8Fz-17" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/power_platform/PowerAutomate.svg;shadow=1;" value="Criar solicitação via&lt;div&gt;Copilot Studio&lt;/div&gt;" vertex="1">
+          <mxGeometry height="53.839999999999996" width="68" x="96" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AMYnGLXdCnbA72KuHY_y-16" edge="1" parent="jwTzE-N-crLtzynFK8Fz-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="440" />
+              <mxPoint x="-349" y="440" />
+            </Array>
+            <mxPoint x="140" y="320" as="sourcePoint" />
+            <mxPoint x="-349.08" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMYnGLXdCnbA72KuHY_y-8" edge="1" parent="1" source="jwTzE-N-crLtzynFK8Fz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.015;entryY=0.642;entryDx=0;entryDy=0;entryPerimeter=0;" target="AMYnGLXdCnbA72KuHY_y-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="-343" />
+              <mxPoint x="650" y="-140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMYnGLXdCnbA72KuHY_y-9" edge="1" parent="1" source="jwTzE-N-crLtzynFK8Fz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.54;entryDx=0;entryDy=0;entryPerimeter=0;" target="jwTzE-N-crLtzynFK8Fz-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="-330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMYnGLXdCnbA72KuHY_y-13" edge="1" parent="1" source="jwTzE-N-crLtzynFK8Fz-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.457;entryDx=0;entryDy=0;entryPerimeter=0;" target="jwTzE-N-crLtzynFK8Fz-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="-343" />
+              <mxPoint x="900" y="-570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LbS0YWS5XL2qfN2Z-3OJ-3" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.2627450980392155;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Plugins&lt;div&gt;1) plugin ao aprovar uma solicitação:&amp;nbsp;&lt;/div&gt;&lt;div&gt;Sistema devera atribuir a equipe responsável&amp;nbsp;&lt;/div&gt;&lt;div&gt;pelo tipo de solicitação&lt;/div&gt;&lt;div&gt;2) Não permitir alterações quando o status&lt;/div&gt;&lt;div&gt;estiver em aprovação&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="410" x="1250" y="-660" as="geometry" />
+        </mxCell>
+        <mxCell id="LbS0YWS5XL2qfN2Z-3OJ-4" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" value="Javascript:&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="240" width="410" x="1250" y="-370" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
