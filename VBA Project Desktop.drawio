@@ -1,9 +1,195 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.13 Safari/605.1.15" version="29.3.6">
   <diagram name="Página-1" id="nkpxcFh1mDUvHrCFth56">
-    <mxGraphModel>
+    <mxGraphModel dx="1124" dy="1024" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Project Desktop (.mpp)" vertex="1">
+          <mxGeometry height="750" width="220" x="70" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-2" parent="XqaWT-soUMrxWDFPwtmW-1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Perqui-2061/ms_project-951.png" value="" vertex="1">
+          <mxGeometry height="48" width="48" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-48" edge="1" parent="XqaWT-soUMrxWDFPwtmW-1" source="XqaWT-soUMrxWDFPwtmW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="XqaWT-soUMrxWDFPwtmW-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-4" parent="XqaWT-soUMrxWDFPwtmW-1" style="whiteSpace=wrap;html=1;" value="Prompt: inserir id do projeto" vertex="1">
+          <mxGeometry height="60" width="120" x="45" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-27" edge="1" parent="XqaWT-soUMrxWDFPwtmW-1" source="XqaWT-soUMrxWDFPwtmW-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XqaWT-soUMrxWDFPwtmW-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-24" parent="XqaWT-soUMrxWDFPwtmW-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Deserializa Json" vertex="1">
+          <mxGeometry height="60" width="120" x="47.5" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-29" edge="1" parent="XqaWT-soUMrxWDFPwtmW-1" source="XqaWT-soUMrxWDFPwtmW-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XqaWT-soUMrxWDFPwtmW-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-26" parent="XqaWT-soUMrxWDFPwtmW-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Cadastra informações do projeto&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="47.5" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-31" edge="1" parent="XqaWT-soUMrxWDFPwtmW-1" source="XqaWT-soUMrxWDFPwtmW-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XqaWT-soUMrxWDFPwtmW-30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-28" parent="XqaWT-soUMrxWDFPwtmW-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Carrega informacoes dos recursos" vertex="1">
+          <mxGeometry height="60" width="120" x="47.5" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-33" edge="1" parent="XqaWT-soUMrxWDFPwtmW-1" source="XqaWT-soUMrxWDFPwtmW-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XqaWT-soUMrxWDFPwtmW-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-30" parent="XqaWT-soUMrxWDFPwtmW-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Carrega informações de tarefas" vertex="1">
+          <mxGeometry height="60" width="125" x="45" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-32" parent="XqaWT-soUMrxWDFPwtmW-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Exibe projeto para usuário&amp;nbsp;" vertex="1">
+          <mxGeometry height="50" width="105" x="55" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-6" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Power automate" vertex="1">
+          <mxGeometry height="780" width="200" x="340" y="130" as="geometry">
+            <mxRectangle height="30" width="130" x="380" y="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-11" edge="1" parent="XqaWT-soUMrxWDFPwtmW-6" source="XqaWT-soUMrxWDFPwtmW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XqaWT-soUMrxWDFPwtmW-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-7" parent="XqaWT-soUMrxWDFPwtmW-6" style="rounded=0;whiteSpace=wrap;html=1;" value="Http request&lt;div&gt;Parameters: projectId&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="40" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-13" edge="1" parent="XqaWT-soUMrxWDFPwtmW-6" source="XqaWT-soUMrxWDFPwtmW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XqaWT-soUMrxWDFPwtmW-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-10" parent="XqaWT-soUMrxWDFPwtmW-6" style="rounded=0;whiteSpace=wrap;html=1;" value="Busca projeto com o id recebido&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-15" edge="1" parent="XqaWT-soUMrxWDFPwtmW-6" source="XqaWT-soUMrxWDFPwtmW-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XqaWT-soUMrxWDFPwtmW-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-12" parent="XqaWT-soUMrxWDFPwtmW-6" style="rounded=0;whiteSpace=wrap;html=1;" value="Busca tarefas associadas ao projeto" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-20" edge="1" parent="XqaWT-soUMrxWDFPwtmW-6" source="XqaWT-soUMrxWDFPwtmW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XqaWT-soUMrxWDFPwtmW-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-14" parent="XqaWT-soUMrxWDFPwtmW-6" style="rounded=0;whiteSpace=wrap;html=1;" value="Busca recursos do projeto" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-18" parent="XqaWT-soUMrxWDFPwtmW-6" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/power_platform/PowerAutomate.svg;" value="" vertex="1">
+          <mxGeometry height="40" width="50.52" x="8" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-60" edge="1" parent="XqaWT-soUMrxWDFPwtmW-6" source="XqaWT-soUMrxWDFPwtmW-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="XqaWT-soUMrxWDFPwtmW-59" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-19" parent="XqaWT-soUMrxWDFPwtmW-6" style="rounded=0;whiteSpace=wrap;html=1;" value="Gerar JSON das informações&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-37" edge="1" parent="XqaWT-soUMrxWDFPwtmW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="XqaWT-soUMrxWDFPwtmW-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="240" />
+              <mxPoint x="270" y="160" />
+            </Array>
+            <mxPoint x="160" y="240" as="sourcePoint" />
+            <mxPoint x="410" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-38" connectable="0" parent="XqaWT-soUMrxWDFPwtmW-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="msdyn_project: GET by projectId" vertex="1">
+          <mxGeometry relative="1" x="-0.1444" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-59" parent="XqaWT-soUMrxWDFPwtmW-6" style="rounded=0;whiteSpace=wrap;html=1;" value="Http response&amp;nbsp;&lt;div&gt;Parameters: projectJson&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-34" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Dataverse" vertex="1">
+          <mxGeometry height="750" width="220" x="680" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-35" parent="XqaWT-soUMrxWDFPwtmW-34" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/power_platform/Dataverse.svg;" value="" vertex="1">
+          <mxGeometry height="52.4" width="68" x="20" y="37.6" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-36" parent="XqaWT-soUMrxWDFPwtmW-34" style="rounded=0;whiteSpace=wrap;html=1;" value="Busca projeto&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="110" x="70" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-53" edge="1" parent="XqaWT-soUMrxWDFPwtmW-34" source="XqaWT-soUMrxWDFPwtmW-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="XqaWT-soUMrxWDFPwtmW-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-54" connectable="0" parent="XqaWT-soUMrxWDFPwtmW-53" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="link-entity msdyn_resourceassignment" vertex="1">
+          <mxGeometry relative="1" x="-0.1692" y="7" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-42" parent="XqaWT-soUMrxWDFPwtmW-34" style="rounded=0;whiteSpace=wrap;html=1;" value="Busca tarefas" vertex="1">
+          <mxGeometry height="50" width="120" x="70" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-47" parent="XqaWT-soUMrxWDFPwtmW-34" style="rounded=0;whiteSpace=wrap;html=1;" value="Busca Atribuição de Recurso" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-40" edge="1" parent="1" source="XqaWT-soUMrxWDFPwtmW-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" target="XqaWT-soUMrxWDFPwtmW-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="805" y="385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-41" connectable="0" parent="XqaWT-soUMrxWDFPwtmW-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="return body" vertex="1">
+          <mxGeometry relative="1" x="-0.5681" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-43" edge="1" parent="1" source="XqaWT-soUMrxWDFPwtmW-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="XqaWT-soUMrxWDFPwtmW-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-44" connectable="0" parent="XqaWT-soUMrxWDFPwtmW-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="GET msdyn_projecttask by projectid" vertex="1">
+          <mxGeometry relative="1" x="-0.063" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-45" edge="1" parent="1" source="XqaWT-soUMrxWDFPwtmW-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="580" />
+              <mxPoint x="670" y="510" />
+            </Array>
+            <mxPoint x="820" y="470" as="sourcePoint" />
+            <mxPoint x="500" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-46" connectable="0" parent="XqaWT-soUMrxWDFPwtmW-45" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="return body" vertex="1">
+          <mxGeometry relative="1" x="-0.3123" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-50" edge="1" parent="1" source="XqaWT-soUMrxWDFPwtmW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="XqaWT-soUMrxWDFPwtmW-7" value="send projectId">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-51" edge="1" parent="1" source="XqaWT-soUMrxWDFPwtmW-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="XqaWT-soUMrxWDFPwtmW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-52" connectable="0" parent="XqaWT-soUMrxWDFPwtmW-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="return projectJson" vertex="1">
+          <mxGeometry relative="1" x="-0.142" y="-8" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-55" edge="1" parent="1" source="XqaWT-soUMrxWDFPwtmW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="XqaWT-soUMrxWDFPwtmW-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="600" />
+              <mxPoint x="690" y="595" />
+            </Array>
+            <mxPoint x="720" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-56" connectable="0" parent="XqaWT-soUMrxWDFPwtmW-55" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="GET msdyn_resourceassignment by projectId" vertex="1">
+          <mxGeometry relative="1" x="0.4615" y="11" as="geometry">
+            <mxPoint x="-64" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqaWT-soUMrxWDFPwtmW-57" edge="1" parent="1" source="XqaWT-soUMrxWDFPwtmW-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="XqaWT-soUMrxWDFPwtmW-14" value="return body">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="650" />
+              <mxPoint x="470" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
